@@ -1,0 +1,31 @@
+html {
+    background-color: black;}
+
+h1 {
+    color: grey;
+    font-size: 18px;
+    border-bottom: 1px solid grey;}
+
+#section-images {
+display: flex;
+justify-content: center;
+}
+
+body header nav ul {
+    color: white;
+    width: 100%;
+    font-style: initial;
+    justify-content: space-around;
+    display: flex;
+}
+h2 {color: whitesmoke; font-size: 300%; text-align: center;}
+h3 {color: whitesmoke; font-size: 150%;}
+h4 {color: grey; font-size: 150%;}
+h5 {color: grey; font-size: 150%;}
+h6 {color: grey; font-size: 150%;}
+
+footer article label {
+    color: white;
+    display: block;
+    font-size: 150%;
+}
