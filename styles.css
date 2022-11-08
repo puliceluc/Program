@@ -1,9 +1,10 @@
 html {
     background-color: black;}
 
-h1 {
-    color: grey;
-    font-size: 18px;
+h1 {color: whitesmoke;
+    font-size: 60px;
+    text-align: center;
+    font-family: monospace;
     border-bottom: 1px solid grey;}
 
 #section-images {
@@ -12,20 +13,24 @@ justify-content: center;
 }
 
 body header nav ul {
-    color: white;
+    color: whitesmoke;
+    font-size: 150%;
     width: 100%;
-    font-style: initial;
+    font-family: monospace;
     justify-content: space-around;
     display: flex;
 }
-h2 {color: whitesmoke; font-size: 300%; text-align: center;}
-h3 {color: whitesmoke; font-size: 150%;}
-h4 {color: grey; font-size: 150%;}
-h5 {color: grey; font-size: 150%;}
-h6 {color: grey; font-size: 150%;}
+h2 {color: whitesmoke; font-size: 200%; font-family: monospace; text-align: center;}
+h3 {color: whitesmoke; font-size: 150%; font-family: monospace; background-color: darkblue; width: 13%;}
+h4 {color: whitesmoke; font-size: 150%; font-family: monospace; background-color: darkblue; width: 29%;}
+h5 {color: blue; font-size: 150%; font-family: monospace;}
+h6 {color: whitesmoke; font-size: 150%; width: 300%; font-family: monospace; display: flex;}
 
 footer article label {
     color: white;
     display: block;
     font-size: 150%;
+    font-family: monospace;
 }
+#section2 {display: flex; justify-content: space-evenly; font-family: monospace;}
+#text {display: flex; justify-content: end; width: 130%;}
