@@ -5,25 +5,23 @@ h1 {color: whitesmoke;
     font-size: 60px;
     text-align: center;
     font-family: monospace;
-    border-bottom: 1px solid grey;}
-
-#section-images {
-display: flex;
-justify-content: center;
 }
 
-body header nav ul {
-    color: whitesmoke;
-    font-size: 150%;
-    width: 100%;
-    font-family: monospace;
-    justify-content: space-around;
-    display: flex;
+#section-images {display: flex; justify-content: space-between;}
+
+#papo {
+justify-content: center;
+border: 2px solid white; width: 120%;
+}
+
+#stu {
+    justify-content: center;
+    border: 2px solid white; width: 56%; height: 80%;
 }
 
 h2 {color: whitesmoke; font-size: 200%; font-family: monospace; text-align: center;}
-h3 {color: whitesmoke; font-size: 150%; font-family: monospace; background-color: darkblue; width: 14%;}
-h4 {color: whitesmoke; font-size: 150%; font-family: monospace; background-color: darkblue; width: 33%;}
+h3 {color: whitesmoke; font-size: 150%; font-family: monospace; background-color: darkblue; width: 60%;}
+h4 {color: whitesmoke; font-size: 150%; font-family: monospace; background-color: darkblue; width: 35%;}
 h5 {color: blue; font-size: 150%; font-family: monospace;}
 h6 {color: whitesmoke; font-size: 150%; width: 300%; font-family: monospace; display: flex;}
 
@@ -33,5 +31,35 @@ footer article label {
     font-size: 150%;
     font-family: monospace;
 }
-#section2 {display: flex; justify-content: space-evenly; font-family: monospace;}
-#text {display: flex; justify-content: end; width: 130%;}
+#section2 {display: flex; justify-content: space-between; font-family: monospace; width: 90%;}
+#video1 {display: flex; font-family: monospace;}
+#video2 {display: flex; font-family: monospace;}
+#text {display: flex; justify-content: end; width: 125%;}
+
+#menulist {
+    flex;
+}
+
+.dropdown {
+    display: inline-block;
+    position: relative;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba (0,0,0,0.2);
+}
+
+.dropdown:hover .dropdown-content {
+    display: inline-flex; justify-content: space-evenly;
+    width: 3000%;
+}
+
+.dropdown-content a {
+    display: flex;
+    color: white;
+    padding: 5px;
+    text-decoration: none;
+}
