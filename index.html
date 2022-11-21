@@ -29,11 +29,11 @@
                 </div>
                 </button>
                 <div class="dropdown-content">
-                <a href="">HOME</a> 
-                <a href="">HALL OF FAME</a>
-                <a href="">ACTUALIDAD Y TABLAS</a>
-                <a href="">BEST BATTLES</a>
-                <a href="">RAP NEWS</a>
+                <a href="#">HOME</a> 
+                <a href="#halloffame">HALL OF FAME</a>
+                <a href="#actualidad">ACTUALIDAD Y TABLAS</a>
+                <a href="#bestbattles">BEST BATTLES</a>
+                <a href="#rapnews">RAP NEWS</a>
                 </div>
             </section>
 
@@ -41,13 +41,14 @@
 
         <main>
             <section class="bg-dark">
-                <h2>🏆 HALL OF FAME 🏆</h2>
+                <h2 id="halloffame">🏆 HALL OF FAME 🏆</h2>
             </section>
             <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
                 <div class="carousel-indicators d-flex justify-content-center">
                   <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
                   <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
                   <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
                 </div>
                 <div class="carousel-inner">
                   <div class="carousel-item active">
@@ -71,6 +72,13 @@
                       <p>2019-2020 CHAMP</p>
                     </div>
                   </div>
+                  <div class="carousel-item">
+                    <img src="./images/wos.jpg" class="d-block w-25 mx-auto img-fluid" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h2>WOS</h2>
+                      <p>2018-2019 CHAMP</p>
+                    </div>
+                  </div>
                 </div>
                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
                   <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -84,7 +92,7 @@
               
         <hr />
         <section class="bg-dark">
-            <h2>ACTUALIDAD Y TABLAS 🏅</h2>
+            <h2 id="actualidad">ACTUALIDAD Y TABLAS 🏅</h2>
         </section>
         <div class="card-group w-100">
             <div class="card">
@@ -115,7 +123,7 @@
 
           <HR>
           <section class="bg-dark">
-            <h2>BEST BATTLES ⚡</h2>
+            <h2 id="bestbattles">BEST BATTLES ⚡</h2>
           </section>
         <div id="carouselExampleCaptions" class="carousel video" data-bs-ride="false">
             <div class="carousel-indicators d-flex justify-content-center">
@@ -187,7 +195,7 @@
                   </div>
                 </div>
                 <div class="col-12">
-                  <button type="submit" class="btn btn-primary">Submit</button>
+                  <button type="submit" id="buttonsubmit" class="btn btn-primary">Submit</button>
                 </div>
             </form>
             <div class="clearfix w-50 float-md-end mb-3 ms-md-3">
@@ -198,15 +206,17 @@
               </div>
             </section>
             <hr>
-            <footer  style="width:100%; margin-left: 0px;">
-                <div class="copyright" style="background-color: #0d47a1;">
-                    <div class="container-fluid" style="background-color: green; color: #bbdefb;">
-                    <i class="fa-brands fa-instagram"></i>
-                    <i class="fa-brands fa-facebook"></i>
-                    <i class="fa-brands fa-twitter"></i>
-                    ©  Copyright 
+            <footer class="contaniner-fluid" style="width:100%; margin-left: 0px;">
+                    <div style="background-color: green; color: #bbdefb;">
+                      <li class="d-flex justify-content-center">SEGUINOS EN REDES</li>
+                      <li class="d-flex justify-content-center"><i class="fa-brands fa-instagram"></i><i class="fa-brands fa-facebook"></i><i class="fa-brands fa-twitter"></i></li>
                     </div>
                 </div>
         </footer>
     </body>
 </html># Program
+
+
+
+
+
